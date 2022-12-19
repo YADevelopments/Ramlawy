@@ -296,14 +296,14 @@ header.sticky{
 	font-size: 25px;
 	font-weight: 500;
 	color: var(--bg-color);
-	bottom: 0;
+	bottom: 100%;
 	left: 50%;
 	transform: translateX(-50%);
 	opacity: 0;
 	transition: all .40s;
 }
 .layer:hover h3{
-	bottom: 52%;
+	bottom: 70%;
 	opacity: 1;
 }
 
@@ -320,7 +320,7 @@ header.sticky{
 	transition: all .40s;
 }
 .layer:hover h5{
-	bottom: 48%;
+	bottom: 23%;
 	opacity: 1;
 }
 
@@ -466,6 +466,7 @@ header.sticky{
 	letter-spacing: 1px;
 }
 
+
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
@@ -560,7 +561,10 @@ header.sticky{
 	}
 }
 @media (max-width: 540px){
-	.contact .action form input[type="email"] {
+	.contact .action form h1 [type="email"] {
 		width: 310px;
 	}
+}
+.action  h1{
+	color: var(--text-color);
 }
