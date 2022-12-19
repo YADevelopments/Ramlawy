@@ -313,14 +313,14 @@ header.sticky{
 	font-size:17px;
 	font-weight: 500;
 	color: var(--bg-color);
-	bottom: 0;
+	bottom: 80;
 	left: 50%;
 	transform: translateX(-50%);
 	opacity: 0;
 	transition: all .40s;
 }
 .layer:hover h5{
-	bottom: 18%;
+	bottom: 23%;
 	opacity: 1;
 }
 
